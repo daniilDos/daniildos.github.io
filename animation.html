@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 400px;
+            width: 300px;
+            background-color:blue;
+            display: flex;
+            flex-direction: column;
+            transition: ease all .25s;
+        }
+        .container:hover {
+            
+            box-shadow: 1px 1px 0px 0px purple ,
+             2px 2px 0px 0px purple ,
+             3px 3px 0px 0px yellow ,
+             4px 4px 0px 0px purple ,
+             5px 5px 0px 0px yellow ,
+             6px 6px 0px 0px purple ,
+             7px 7px 0px 0px yellow ,
+             8px 8px 0px 0px purple ,
+             9px 9px 0px 0px yellow ;
+            transform: translate(-10px,-10px);
+        }
+        .item-1 {
+        
+         display: flex;
+            height: 100%;
+            background-color: chocolate;
+            margin: 5px;
+            flex-direction: column;
+            justify-content: space-evenly;
+            text-align: center;
+
+        }
+        .item-2 {
+            justify-content: space-evenly;
+            display: flex;
+            height: 20%;
+        
+        }
+        .info {
+            width: 50%;
+            margin: 5px;
+            background-color: coral;
+        }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item-1">
+            <h1>Описание сайта</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Tempora, laborum dolores reprehenderit adipisci dolore
+                 nemo corrupti velit libero et, 
+                natus vel totam sequi, incidunt culpa rerum temporibus
+                 architecto consequatur laudantium?</p>
+                </div>
+        <div class="item-2">
+            
+            <div class="info">
+
+            </div>
+            <div class="info"></div>
+        </div>
+    </div>
+</body>
+</html>
